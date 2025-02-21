@@ -1,0 +1,12 @@
+const Myimg = document.getElementById("Myimg");
+const Mybtn = document.getElementById("Mybtn");
+
+Mybtn.addEventListener("click", () => {
+    if (Myimg.style.visibility === "hidden") {
+        Myimg.style.visibility = "visible";
+        Mybtn.textContent = "Hide";
+    } else {
+        Myimg.style.visibility = "hidden";
+        Mybtn.textContent = "Show";
+    }
+});
