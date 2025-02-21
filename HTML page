@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="paris.jpg" id="Myimg"><br>
+    <button id="Mybtn" style="font-size: 2rem;">Hide</button>
+    <script src="65.Show_and_hide.js"></script>
+</body>
+</html>
